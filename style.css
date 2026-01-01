@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.hero {
+  height: 500px;
+  background-image: url("images/stadium.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#title {
+  background: #305aa6;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+#desk {
+  margin-top: 0px;
+  width: 600px;
+  background: #192a38;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+#title-main {
+  text-align: center;
+}
+.main {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-section {
+  width: 250px;
+}
+#img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+#p-title {
+  font-weight: 800;
+}
