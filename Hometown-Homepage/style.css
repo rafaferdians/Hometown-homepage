@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.hero {
+  height: 500px;
+  background-image: url("images/stadium.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#title {
+  background: #305aa6;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+#desk {
+  margin-top: 0px;
+  width: 600px;
+  background: #192a38;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.judul {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+.main {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background: aliceblue;
+}
+.isi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.img-section {
+  width: 250px;
+}
+#img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+#p-title {
+  font-weight: 800;
+}
+.footer {
+  display: flex;
+  width: 450px;
+  margin: 50px auto;
+  background: lightblue;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border-bottom: #305aa6 solid 6px;
+}
+
+#profil {
+  height: 280px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+#p-footer {
+  font-style: italic;
+}
